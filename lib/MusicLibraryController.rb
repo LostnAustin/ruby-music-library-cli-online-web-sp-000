@@ -20,10 +20,10 @@ class MusicLibraryController
 
      case a
       when 'list artists'
-       artist
+       list_artist
 
       when 'list genres'
-      list_genres
+      list_songs_by_genre
 
       when 'list artist'
       list_songs_by_artist
