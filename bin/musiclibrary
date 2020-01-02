@@ -5,9 +5,3 @@ require_relative '../config/environment'
 
 
 MusicLibraryController.new
-list songs = gets.strip
-
-Song.all.sort { |a, b| a.name <=> b.name }.each.with_index(1) do |song, index|
-  puts "#{index}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
-
-list_songs(list songs)
