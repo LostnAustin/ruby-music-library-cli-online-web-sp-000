@@ -33,6 +33,9 @@ class MusicLibraryController
 
       when 'play song'
       play_song
+
+      when 'list songs'
+        list_songs
         end
       end
     end
