@@ -21,7 +21,6 @@ class MusicLibraryController
      a = gets.strip
 
      case a
-
       when 'list artists'
        artist
 
