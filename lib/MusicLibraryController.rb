@@ -1,6 +1,5 @@
 class MusicLibraryController
-
-
+  require_relative '../config/environment'
 
   def initialize(path= "./db/mp3s")
   importer =  MusicImporter.new(path).import
