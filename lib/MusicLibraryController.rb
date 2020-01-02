@@ -18,18 +18,20 @@ class MusicLibraryController
      puts "To play a song, enter 'play song'."
      puts "To quit, type 'exit'."
      puts "What would you like to do?"
-     a = gets.chomp
+     a = gets.strip
 
-     if a == 'list artists'
+     case a
+
+     when 'list artists'
        artist
 
-   elseif a == 'list genres'
+     when 'list genres'
       genres
 
-    elseif a == 'list artist'
+      when 'list artist'
       song.artist
 
-    elseif a == 'list genre'
+      when 'list genre'
       song.genre
         end
       end
