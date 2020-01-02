@@ -22,10 +22,10 @@ class MusicLibraryController
 
      case a
 
-     when 'list artists'
+      when 'list artists'
        artist
 
-     when 'list genres'
+      when 'list genres'
       genres
 
       when 'list artist'
